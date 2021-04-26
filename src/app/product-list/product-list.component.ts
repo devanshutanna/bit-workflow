@@ -16,8 +16,8 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
-  view() {
-    window.alert('The product has been viewed!');
+  open() {
+    window.alert('The product has been opened!');
   }
 }
 
