@@ -58,5 +58,12 @@
     "@angular/platform-browser": "^11.0.8",
     "@angular/platform-browser-dynamic": "^11.0.8",
     "@angular/router": "^11.0.8"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@10.1.7"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }

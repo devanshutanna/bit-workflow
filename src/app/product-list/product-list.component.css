@@ -8,13 +8,14 @@
     background-color: #68bb5d;
     color: white;
     border: none;
+    margin: 4px;
   }
-  
+
   .button:hover, button:hover {
     opacity: 0.8;
     font-weight: normal;
   }
-  
+
   .button:disabled, button:disabled {
     opacity: 0.5;
     cursor: auto;

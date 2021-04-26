@@ -1,0 +1,46 @@
+{
+  "name": "@bit/devanshutanna.angular-tutorial.product-list",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/devanshutanna/angular-tutorial/product-list",
+  "main": "dist/bundles/bit-devanshutanna.angular-tutorial.product-list.umd.js",
+  "componentId": {
+    "scope": "devanshutanna.angular-tutorial",
+    "name": "product-list",
+    "version": "0.0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslib": ">=2.1.0",
+    "webpack-env": ">=0.8.0",
+    "@angular/core": ">= 11.0.1",
+    "@angular/common": ">= 11.0.1"
+  },
+  "peerDependencies": {
+    "@angular/common": "^11.0.1",
+    "@angular/core": "^11.0.1"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@10.1.7"
+    }
+  },
+  "es2015_ivy_ngcc": "__ivy_ngcc__/dist/fesm2015/bit-product-list.js",
+  "es2015": "dist\\fesm2015\\bit-devanshutanna.angular-tutorial.product-list.js",
+  "esm2015": "dist\\esm2015\\bit-devanshutanna.angular-tutorial.product-list.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/dist/fesm2015/bit-product-list.js",
+  "fesm2015": "dist\\fesm2015\\bit-devanshutanna.angular-tutorial.product-list.js",
+  "module_ivy_ngcc": "__ivy_ngcc__/dist/fesm2015/bit-product-list.js",
+  "module": "dist\\fesm2015\\bit-devanshutanna.angular-tutorial.product-list.js",
+  "typings": "dist\\bit-devanshutanna.angular-tutorial.product-list.d.ts",
+  "metadata": "dist\\bit-devanshutanna.angular-tutorial.product-list.metadata.json",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "11.0.9",
+    "fesm2015": "11.0.9",
+    "module": "11.0.9",
+    "typings": "11.0.9"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

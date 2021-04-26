@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 
 import { products } from './products';
 
+/**
+ * It a little diiferent, documented ProductList component
+ */
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -12,6 +15,9 @@ export class ProductListComponent {
 
   share() {
     window.alert('The product has been shared!');
+  }
+  view() {
+    window.alert('The product has been viewed!');
   }
 }
 
